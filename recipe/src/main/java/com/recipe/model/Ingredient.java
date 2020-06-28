@@ -16,8 +16,8 @@ public class Ingredient {
 
     @OneToOne(fetch= FetchType.EAGER)
     private UnitOfMeasure uoms;
-
-    public UnitOfMeasure getUoms() {
+ 
+    public UnitOfMeasure getUoms( ) {
         return uoms;
     }
 
